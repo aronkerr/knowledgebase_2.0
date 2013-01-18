@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+    </default>
+	<knowledgebase_index_index>
+		<reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+		</reference>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/Datadrivendesign/extjs/ext-all.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/Datadrivendesign/knowledgebase/styles.css</stylesheet></action>
+			<action method="addJs"><script>Datadrivendesign/extjs/ext-all.js</script></action>
+			<action method="addJs"><script>Datadrivendesign/knowledgebase/app.js</script></action>
+			<block type="core/text" name="scribd.cdn.view">
+				<action method="setText">
+					<text><![CDATA[<script src="http://www.scribd.com/javascripts/view.js"></script>]]></text>
+				</action>
+			</block>			
+		</reference>
+	</knowledgebase_index_index>
+</layout>

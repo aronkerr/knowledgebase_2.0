@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+		<datadrivendesign translate="label" module="knowledgebase">
+			<label>Data Driven Design</label>
+			<sort_order>999</sort_order>
+		</datadrivendesign>
+	</tabs>
+	<sections>
+		<knowledgebase_options translate="label" module="knowledgebase">
+			<label>Knowledge Base</label>
+			<tab>datadrivendesign</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1000</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>	
+			<groups>
+				<general translate="label">
+					<label>General</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>1</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<scribd_api>
+							<label>Scribd API Key</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</scribd_api>
+						<scribd_url>
+							<label>Scribd API URL</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</scribd_url>
+						<root_id>
+							<label>Knowledge Base Root Category ID</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>5</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</root_id>
+					</fields>
+				</general>
+			</groups>		
+		</knowledgebase_options>
+	</sections>
+</config>
